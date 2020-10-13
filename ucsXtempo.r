@@ -1,5 +1,5 @@
 library(readxl)
-respostas <- read_excel("C:/Users/YuriAkira/Desktop/Faculdade/PE/FINAL/respostas.xlsx")
+respostas <- read_excel("C:/respostas.xlsx")
 respostas
 names(respostas)[names(respostas)=="Quantas UCs você está cursando nesse semestre?"]="UC"
 names(respostas)[names(respostas)=="Em média, quantas horas diárias você está se dedicando aos estudos no formato AED?"]="horas" 
